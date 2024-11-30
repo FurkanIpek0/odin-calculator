@@ -3,6 +3,9 @@ body {
     margin: 0;
     width: 100vw;
     height: 100vh;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .container {
@@ -24,6 +27,9 @@ body {
     flex: 0 0 100px;
     background: gray;
     border-radius: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 30px;
 }
 
 .button-display {
@@ -40,4 +46,9 @@ body {
     padding: 10px;
     border-radius: 50%;
     border-radius: 30px;
+    color: red;
+}
+
+p {
+    color: red;
 }
